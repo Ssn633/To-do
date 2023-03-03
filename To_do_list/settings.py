@@ -87,13 +87,15 @@ WSGI_APPLICATION = 'To_do_list.wsgi.application'
 
 # To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
 
+# To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
+
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'todolist',
     'USER': 'mrpmwm',
-    'PASSWORD': 'H7EUfpZx1boz',
-    'HOST': 'ep-wild-scene-723677.ap-southeast-1.aws.neon.tech',
+    'PASSWORD': 'sJb75iZqeNfM',
+    'HOST': 'ep-crimson-block-569895.ap-southeast-1.aws.neon.tech',
     'PORT': '5432',
   }
 }
